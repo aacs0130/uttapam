@@ -27,7 +27,10 @@ class Solution(object):
             for j in range(i+1, arrayLen, 1):
                 if copyList[i]==minusList[j]:
                     x = nums.index(copyList[i])
-                    y = nums.index(copyList[j])
+                    if copyList[i] == copyList[j]:
+                        y = nums[x:].index(copyList[j])
+                    else:
+                        y = nums.index(copyList[j])
                     #print "T: found %s" % ([i,j])
                     return [x,y]
                     break
@@ -53,11 +56,11 @@ def main():
             result = [0,4]
         '''
         s=Solution();
-        nums = [1,2,3,4]
+        nums = [3,3]
         target = 7
 
         print "Case 1:%s of %s, t=%s" %(s.twoSum(nums, target), nums, target)
-        target = 3
+        target = 6
         print "Case 2:%s of %s, t=%s" %(s.twoSum(nums, target), nums, target)
         nums = [1,3,9,27,81]
         target = 36
