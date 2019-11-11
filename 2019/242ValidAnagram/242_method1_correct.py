@@ -10,7 +10,7 @@ class Solution(object):
         count alphabet of s and t
         use dictionary 
         dict[char] = count
-        1. compare leng and None
+        1. compare leng and check if s == None or t == None 
         2. count s and t 
         3 compare 2 dict, same return true 
         
