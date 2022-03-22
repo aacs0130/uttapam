@@ -6,3 +6,8 @@ func(c='1')
 def func(*args, **kwargs):
 c = kwargs.get('c', None)
 
+def fun(var) -> int:
+#Don't need to define var type
+
+dict use [] not ()
+Cannot do - on two str

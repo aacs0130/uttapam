@@ -5,4 +5,4 @@ Coding practice
 - 2021 : 013, 026, 066, 067, 094, 101, 104, 118, 141
 - 2022 : 167
 	#Jump five easy problems from 141
-- 2022 python workout: https://www.flag.com.tw/bk/st/F1750
+- 2022 python workout: https://www.books.com.tw/products/0010888495
