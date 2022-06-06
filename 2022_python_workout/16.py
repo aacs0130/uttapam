@@ -1,9 +1,5 @@
 def unique_num_len(input_iter) -> int:
-    cnt_list = []
-    for item in input_iter:
-        if item not in cnt_list:
-            cnt_list.append(item)
-    return len(cnt_list)
+    return len(set(input_iter))
 
 if __name__ == '__main__':
 
