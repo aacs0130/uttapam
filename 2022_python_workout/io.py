@@ -5,3 +5,4 @@ if __name__ == '__main__':
     _output = func(_input)
     answer =
     print('in: %s\nout:\t%s\nanswer:\t%s\n' % (_input, _output, answer))
+    print('diff: '+str(_output == answer))
